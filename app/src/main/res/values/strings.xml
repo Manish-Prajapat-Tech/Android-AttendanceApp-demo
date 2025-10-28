@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ManISH GURU</string>
+    <string name="app_name">Subject_Attendance_Room</string>
+
     <string name="email_hint">Email Address</string>
     <string name="password_hint">Password</string>
     <string name="login_button">Login</string>
-    <string name="student_button">Student</string>
+    <string name="register_button">Register</string>
     <string name="login_button_description">Button to log in to the app</string>
     <string name="student_button_description">Button to access student features</string>
     <string name="hello_teacher">Hello Teacher</string>
@@ -34,19 +34,54 @@
     <string name="invalid_email">Please enter a valid email address</string>
     <string name="invalid_password">Password must be at least 6 characters</string>
     <string name="student_exists">Student already exists</string>
-
     <string name="view_attendance_title">View Attendance</string>
     <string name="present_students">Present Students</string>
     <string name="absent_students">Absent Students</string>
     <string name="no_present_students">No students marked present</string>
     <string name="no_absent_students">No students marked absent</string>
     <string name="no_attendance_found">No attendance records found for this date</string>
-
     <string name="back_button_description">Button to go back</string>
     <string name="select_date">Select Date</string>
     <string name="select_date_description">Button to select a date for attendance</string>
     <string name="no_date_selected">No date selected</string>
     <string name="select_date_first">Please select a date first</string>
+    <string name="login_success">Login Successful</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="invalid_credentials_default">Invalid email or password. Use default credentials: teacher/password</string>
+    <string name="user_registered">User registered and logged in</string>
+
+    <string name="forget_password_button">Forget Password</string>
+    <string name="forget_password_button_description">Button to reset login credentials</string>
+
+    <string name="registration_failed">Failed to register user. Please try again.</string>
+    <string name="password_reset_success">Password reset successful. Enter new email and password.</string>
+    <string name="password_reset_failed">Failed to reset password. Please try again.</string>
+    <string name="enter_class">Enter Class Name</string>
+    <string name="add_student">Add Student</string>
+
+    <!-- SettingsActivity Strings -->
+    <string name="settings_title">Settings</string>
+    <string name="roll_no_to_delete_hint">Roll No to Delete</string>
+    <string name="delete_student_button">Delete Student</string>
+    <string name="delete_student_button_description">Button to delete a student by roll number</string>
+    <string name="delete_student_success">Student deleted successfully</string>
+    <string name="delete_student_failed">Failed to delete student (invalid roll number?)</string>
+    <string name="log_out_button">Log Out</string>
+    <string name="log_out_button_description">Button to log out of the app</string>
+    <string name="log_out_success">Logged out successfully</string>
+    <string name="roll_no_empty">Please enter a roll number</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="student_information">Student Information</string>
 
 
-    </resources>
+    <string name="no_students">No students available</string>
+    <string name="return_button">Return</string>
+    <string name="person_pin_image_description">An image of a person pin</string>
+
+
+
+</resources>
