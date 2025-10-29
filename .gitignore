@@ -1,15 +1,41 @@
+# =============== DEFAULT ANDROID IGNORES ===============
+.idea/
+.gradle/
+build/
+captures/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
 local.properties
+*.log
+.DS_Store
+Thumbs.db
+*.jks
+*.keystore
+app/google-services.json
+gradle.properties
+app/release/
+app/debug/
+*.apk
+*.aab
+
+# =============== CUSTOM IGNORE RULES ===============
+# Hide ALL Java files
+app/src/main/java/**/*
+# Except these (public allowed)
+!app/src/main/java/**/MainActivity.java
+!app/src/main/java/**/SettingsActivity.java
+!app/src/main/java/**/TakeAttendanceActivity.java
+!app/src/main/java/**/DatabaseHelper.java
+
+# Hide ALL layout files
+app/src/main/res/layout/**
+# Except these layouts (public allowed)
+!app/src/main/res/layout/activity_main.xml
+!app/src/main/res/layout/activity_settings.xml
+!app/src/main/res/layout/activity_take_attendance.xml
+
+# Show complete mipmap folder (icons)
+!app/src/main/res/mipmap-*/
+
+# Hide database files, raw files, and assets
+app/src/main/assets/
+app/src/main/res/raw/
